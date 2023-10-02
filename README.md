@@ -49,4 +49,4 @@ Provide detailed instructions on how to use the tool effectively. Include exampl
 ### Example Usage
 
 ```bash
-python URLHunter.py -u https://example.com -w wordlist.txt
+python3 URLHunter.py
