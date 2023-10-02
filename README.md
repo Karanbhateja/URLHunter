@@ -34,7 +34,7 @@ URLHunter is a powerful cybersecurity tool designed for web application security
 
 Follow these steps to get started with URLHunter:
 
-1. **Clone the repository:** `git clone https://github.com/YourUsername/URLHunter.git`
+1. **Clone the repository:** `git clone https://github.com/karanbhateja/URLHunter.git`
 2. **Install dependencies:** `pip install -r requirements.txt`
 3. **Run the tool:** `python URLHunter.py`
 
