@@ -1,12 +1,16 @@
 import requests
 
-author = "Karan Bhateja"
-github_link = "https://github.com/karanbhateja/"
-version = "1.0"
+class Banner:
+    """Class to store information for the banner."""
 
-# Function to display a custom ASCII art banner
-def display_banner():
-    banner = f"""
+    DESCRIPTION = "Welcome to URLHunter - Web Path and File Brute-Forcing Tool"
+    AUTHOR = "Karan Bhateja"
+    GITHUB_LINK = "https://github.com/karanbhateja/"
+    VERSION = "1.0"
+
+    def __str__(self) -> None:
+        """Return string representation of custom ASCII art banner"""
+        return f"""
 
     \033[31m██╗   ██╗██████╗ ██╗         ██╗  ██╗██╗   ██╗███╗   ██╗████████╗███████╗██████╗ 
     \033[31m██║   ██║██╔══██╗██║         ██║  ██║██║   ██║████╗  ██║╚══██╔══╝██╔════╝██╔══██╗
@@ -14,14 +18,13 @@ def display_banner():
     \033[33m██║   ██║██╔══██╗██║         ██╔══██║██║   ██║██║╚██╗██║   ██║   ██╔══╝  ██╔══██╗
     \033[91m╚██████╔╝██║  ██║███████╗    ██║  ██║╚██████╔╝██║ ╚████║   ██║   ███████╗██║  ██║
     \033[91m ╚═════╝ ╚═╝  ╚═╝╚══════╝    ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
-                                                                                                                                                   
-                    \033[93m Author: {author}  
-                    \033[93m Github: {github_link}
-                    \033[93m Version: V{version}  
-    """                                                        
-    print(banner)
-    print("            Welcome to URLHunter - Web Path and File Brute-Forcing Tool\n")                                                   
-    
+
+                    \033[93m Author: {self.AUTHOR}
+                    \033[93m Github: {self.GITHUB_LINK}
+                    \033[93m Version: V{self.VERSION}
+
+            {self.DESCRIPTION}
+    """
 
 # Function to format the URL with a trailing slash if missing and add "http://" or "https://"
 def format_url(url):
@@ -32,7 +35,7 @@ def format_url(url):
     return url
 
 # Display the custom banner
-display_banner()
+print(Banner())
 
 # Target URL and wordlists for directories and filenames
 target_url = input("Enter the target URL (e.g., example.com): ")
