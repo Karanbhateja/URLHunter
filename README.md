@@ -13,9 +13,9 @@
 
 # URLHunter - Cybersecurity Tool
 
-[![GitHub license](https://img.shields.io/github/license/YourUsername/URLHunter)](https://github.com/YourUsername/URLHunter/blob/master/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/YourUsername/URLHunter)](https://github.com/YourUsername/URLHunter/issues)
-[![GitHub stars](https://img.shields.io/github/stars/YourUsername/URLHunter)](https://github.com/YourUsername/URLHunter/stargazers)
+[![GitHub license](https://img.shields.io/github/license/karanbhateja/URLHunter)](https://github.com/karanbhateja/URLHunter/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/karanbhateja/URLHunter)](https://github.com/karanbhateja/URLHunter/issues)
+[![GitHub stars](https://img.shields.io/github/stars/karanbhateja/URLHunter)](https://github.com/karanbhateja/URLHunter/stargazers)
 
 URLHunter is a powerful cybersecurity tool designed for web application security testing. This tool is aimed at helping security professionals identify vulnerabilities through forced browsing, directory and file brute-forcing, and more.
 
