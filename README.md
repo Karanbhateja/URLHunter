@@ -44,9 +44,5 @@ Make sure to configure the tool according to your specific use case and permissi
 
 ## Usage
 
-Provide detailed instructions on how to use the tool effectively. Include examples and scenarios to help users understand its capabilities.
-
-### Example Usage
-
 ```bash
 python3 URLHunter.py
