@@ -4,7 +4,7 @@ import paramiko
 
 author = "Karan Bhateja"
 github_link = "https://github.com/karanbhateja/"
-version = "1.0"
+version = "1.1 Beta"
 
 # Function to display a custom ASCII art banner
 def display_banner():
