@@ -1,4 +1,6 @@
 import requests
+import ftplib
+import paramiko
 
 author = "Karan Bhateja"
 github_link = "https://github.com/karanbhateja/"
